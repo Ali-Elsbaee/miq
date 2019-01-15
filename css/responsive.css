@@ -1,0 +1,493 @@
+@media only screen and (max-width: 1199px) {
+    .home .timer .date {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .timer ul {
+        margin-top: 0;
+    }
+
+    .home .about-section .links {
+        padding: 0 15px 0 15px;
+    }
+
+    .about-section .icon-link a {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .home .courses .heading {
+        text-align: center;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .home .courses h2.underlined-heading::after {
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+    }
+
+
+    .services .service.odd .service-content,
+    .services .service.even .service-content {
+        padding: 50px 0;
+    }
+
+    .team .team-member .info > h6 {
+        font-size: 18px;
+    }
+
+    .team .team-member .info > .nationality {
+        font-size: 16px;
+    }
+
+    .team .team-member .info > .university {
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .home .slider .swiper-container {
+        height: 450px !important;
+        min-height: initial;
+    }
+
+    footer .links {
+        margin-top: 30px;
+    }
+
+
+    .home #ask_course .container {
+        height: auto;
+    }
+
+    .home .ask-course {
+        position: initial;
+        bottom: 0;
+        z-index: 1;
+        float: none;
+    }
+
+    .about .manager-pic {
+        position: relative;
+    }
+
+    .course-page .basic-course-info .course-price {
+        padding: 50px 20px;
+        margin-top: 50px;
+    }
+
+    .services .service.odd .service-content,
+    .services .service.even .service-content {
+        padding: 25px 0;
+    }
+
+    .services .service.even {
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: 150px;
+        background-size: cover;
+        -webkit-box-shadow: 0px -7px 25px 3px rgba(0,0,0,0.2);
+        -moz-box-shadow: 0px -7px 25px 3px rgba(0,0,0,0.2);
+        box-shadow: 0px -7px 25px 3px rgba(0,0,0,0.2);
+    }
+
+    .services .service.even .service-content {
+        background: rgba(251,251,251,1);
+        background: -moz-linear-gradient(left, rgba(251,251,251,1) 0%, rgba(251,251,251,1) 40%, rgba(251,251,251,0.82) 55%, rgba(251,251,251,0.08) 70%, rgba(251,251,251,0) 100%);
+        background: -webkit-linear-gradient(left, rgba(251,251,251,1) 0%, rgba(251,251,251,1) 40%, rgba(251,251,251,0.82) 55%, rgba(251,251,251,0.08) 70%, rgba(251,251,251,0) 100%);
+        background: -o-linear-gradient(left, rgba(251,251,251,1) 0%, rgba(251,251,251,1) 40%, rgba(251,251,251,0.82) 55%, rgba(251,251,251,0.08) 70%, rgba(251,251,251,0) 100%);
+        background: -ms-linear-gradient(left, rgba(251,251,251,1) 0%, rgba(251,251,251,1) 40%, rgba(251,251,251,0.82) 55%, rgba(251,251,251,0.08) 70%, rgba(251,251,251,0) 100%);
+        background: linear-gradient(to right, rgba(251,251,251,1) 0%, rgba(251,251,251,1) 40%, rgba(251,251,251,0.82) 55%, rgba(251,251,251,0.08) 70%, rgba(251,251,251,0) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+    }
+
+    .services .cover {
+        background: none !important;
+        padding: 50px 0;
+        text-align: center;
+        height: auto;
+    }
+
+    .team .team-member {
+        margin: 15px 0;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    header .logo {
+        text-align: center;
+    }
+
+    header .logo img {
+        margin: auto;
+    }
+
+    header .info {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    header .info a,
+    header .info .seperator,
+    header .info .mail {
+        float: none;
+        display: inline-block;
+    }
+
+    h2.underlined-heading:not(.text-center)::after {
+        left: 0;
+        right: auto;
+        transform: translateX(0);
+    }
+
+    .home .courses .heading > h2,
+    .home .events h2 {
+        margin-bottom: 25px;
+    }
+
+    .home .timer h2.underlined-heading::after,
+    .home .courses h2.underlined-heading::after {
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+    }
+
+    .home .slider .swiper-container {
+        height: 450px !important;
+        min-height: initial;
+    }
+
+    .navbar-collapse {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .nav > li {
+        text-align: center;
+    }
+
+    .navbar-default .navbar-nav>li>a:hover,
+    .navbar-default .navbar-nav>li>a:focus,
+    .navbar-default .navbar-nav>.active>a,
+    .navbar-default .navbar-nav>.active>a:focus,
+    .navbar-default .navbar-nav>.active>a:hover {
+        background: #fe6804;
+        color: #fff;
+        border: none;
+    }
+
+    .navbar .social {
+        margin: 0;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        padding-bottom: 10px;
+        border: none;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .navbar-default .navbar-nav > .sign-up-btn > a {
+        margin: 0;
+        padding: 10px 0;
+        border-radius: 0;
+        border: none;
+        color: #181818;
+        line-height: inherit;
+    }
+
+    .navbar .social li a i {
+        font-size: 26px;
+    }
+
+    .navbar .navbar-nav .search {
+        display: flex;
+        margin: 0 20px;
+        flex-direction: row-reverse;
+    }
+
+    .navbar .navbar-nav .search > #search_input {
+        position: relative;
+        top: 0;
+        display: inline-block;
+        right: 0;
+        flex-grow: 1;
+    }
+
+    .navbar .navbar-nav .search #search_btn {
+        flex-grow: 0;
+        background: #fe6804;
+        color: #fff;
+        padding: 6px 10px;
+        margin: 8px 5px 0 0;
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+
+    .navbar .navbar-nav #search_btn > i {
+        vertical-align: middle;
+        font-size: 20px;
+    }
+
+    .navbar .navbar-nav .search > #search_input input {
+        padding: 8px 20px;
+    }
+
+    .navbar .navbar-nav .search > #search_input .ion-close-circled {
+        display: none;
+    }
+
+    footer .links {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .home .timer {
+        text-align: center;
+    }
+
+    .about h2 {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .about .manager-word,
+    .about .mission,
+    .about .vision {
+        padding: 15px 0;
+    }
+
+    .about .manager-word p {
+        margin-bottom: 10px;
+    }
+
+    .about .manager-word p,
+    .about .vision p,
+    .about .mission p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .button-next,
+    .button-prev {
+        font-size: 32px;
+    }
+
+    .course-page .basic-course-info .course-price {
+        padding: 0 30px 30px 30px;
+        margin-top: 0;
+    }
+
+    .experts .expert .info > h4 {
+        font-size: 17px;
+    }
+
+    .experts .expert .info > h6 {
+        font-size: 15px;
+    }
+
+    .experts .expert .info > p{
+        font-size: 14px;
+    }
+
+    .expert .photo {
+        width: 95px;
+        height: 95px;
+    }
+
+    .experts .expert .patch {
+        width: 80px ;
+    }
+
+    .services .service.odd .service-content,
+    .services .service.even .service-content {
+        padding: 25px 0;
+        background: #fafafa;
+    }
+
+    .team .team-member .photo {
+        width: 95px;
+        height: 95px;
+    }
+
+    .team .team-member .info > h6 {
+        font-size: 16px;
+    }
+
+    .team .team-member .info > .nationality {
+        font-size: 15px;
+    }
+
+    .team .team-member .info > .university {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width: 575px) {
+    .h2, h2,
+    .home .events h2,
+    .home .courses .heading > h2 {
+        font-size: 24px;
+    }
+
+    .h3, h3 {
+        font-size: 20px;
+    }
+
+    .my-input,
+    .home .timer .location > p {
+        font-size: 14px;
+    }
+
+    .home .ask-course .ask-course-header h2 {
+        font-size: 28px;
+    }
+
+    .home .ask-course .phone-code span {
+        font-size: 14px;
+    }
+
+    header .info {
+        margin-top: 15px;
+    }
+
+    header .info .mail {
+        vertical-align: super;
+    }
+
+    .home .slider .swiper-container {
+        height: 380px;
+        min-height: initial;
+    }
+
+    .home .about-section .nav-tabs a {
+        font-size: 18px;
+    }
+
+    .home .about-section .nav-tabs .underline {
+        width: 89px;
+    }
+
+    .home .testimonials .testi-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .home .testimonials .testi-quote {
+        font-size: 20px;
+        margin: 20px 0;
+    }
+
+
+}
+
+@media only screen and (max-width: 479px) {
+    .home .ask-course .ask-course-content {
+        padding: 20px 0;
+    }
+
+    .home .timer ul li {
+        width: 68px;
+        height: 68px;
+    }
+
+    .home .timer ul li p {
+        font-size: 26px;
+    }
+
+    .home .timer ul li::before {
+        top: 38px
+    }
+
+    .timer ul li::after {
+        top: 40px;
+    }
+
+    .home .timer .date p {
+        font-size: 20px;
+    }
+
+    .home .about-section .nav-tabs a {
+        font-size: 16px;
+        padding: 6px 0;
+    }
+
+    .home .about-section .nav-tabs a > i {
+        font-size: 22px;
+        margin-right: 6px;
+    }
+
+    .home .about-section .nav-tabs .underline {
+        width: 85px;
+    }
+
+    .home .about-section .tab-pane {
+        padding: 25px 10px;
+    }
+
+    .home .about-section .nav-tabs .underline::after {
+        width: 15px;
+        height: 15px;
+        bottom: 1px;
+    }
+
+    .home .about-section p {
+        font-size: 14px;
+    }
+
+    .home .about-section .icon-link a h2 {
+        font-size: 16px;
+    }
+
+    .courses .course .course-name {
+        font-size: 20px;
+    }
+
+    .home .testimonials .testi-quote {
+        font-size: 18px;
+    }
+
+    footer .links ul li a {
+        font-size: 13px;
+    }
+
+    .payment-page .methods .panel-heading label {
+        font-size: 14px;
+    }
+
+    .payment-page .methods label > span {
+        padding: 6px;
+        top: 3px;
+    }
+
+    .payment-page .methods .methods-radio:checked + label > span::after {
+        top: 2px;
+        left: 2px;
+    }
+
+    .contact .contact-container .contact-msg,
+    .contact .contact-container .contact-info {
+        padding: 20px;
+    }
+
+
+    .team .team-member .info > h6 {
+        font-size: 14px;
+    }
+
+    .team .team-member .info > .nationality {
+        font-size: 13px;
+    }
+
+    .team .team-member .info > .university {
+        font-size: 12px;
+    }
+
+}
